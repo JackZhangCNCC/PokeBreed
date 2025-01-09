@@ -1,0 +1,46 @@
+# 消息前缀
+prefix: "§8[§9宝可梦繁殖§8] "
+
+# 命令相关消息
+commands:
+  player_only: "§c该命令只能由玩家执行！"
+  no_permission: "§c你没有权限使用该命令！"
+  reload_success: "§a插件重载成功！"
+
+# 繁殖相关消息
+breeding:
+  already_breeding: "§c你已经在繁殖宝可梦了！"
+  cannot_breed: "§c这两只宝可梦不能繁殖！"
+  cannot_be_parent: "§c该宝可梦不能作为父母！"
+  wrong_gender: "§c性别不符合要求！"
+  not_enough_money: "§c你没有足够的金币！需要 %cost% 金币"
+  started: "§a开始繁殖！"
+  cancelled: "§c已取消繁殖！"
+  egg_ready: "§a繁殖完成！请领取你的宝可梦蛋"
+  egg_ready_title: "§a繁殖完成！"
+  egg_ready_subtitle: "§e请领取你的宝可梦蛋"
+  egg_claimed: "§a已领取宝可梦蛋！"
+  egg_received: "§a已获得宝可梦蛋！"
+  complete: "§a繁殖已完成！"
+  failed: "§c繁殖失败！"
+  no_egg: "§c没有可领取的宝可梦蛋！"
+  pokemon_to_pc: "§e由于队伍已满，宝可梦已存入PC！"
+  storage_full: "§c你的PC和队伍都已满！"
+  pokemon_not_found: "§c找不到选择的宝可梦！"
+  parent1_selected: "§a已选择父系宝可梦：%s"
+  parent2_selected: "§a已选择母系宝可梦：%s"
+  level_too_low: "§c宝可梦等级不足！需要等级 %d"
+
+# 道具相关消息
+items:
+  not_enough: "§c你没有足够的道具！"
+  already_used: "§c你已经使用过该道具了！"
+  use_success: "§a成功使用道具！"
+  no_breeding: "§c你没有正在进行的繁殖！"
+
+# 商店相关消息
+shop:
+  disabled: "§c商店系统已禁用！"
+  item_not_found: "§c找不到该道具！"
+  not_enough_money: "§c你没有足够的金币！"
+  purchase_success: "§a成功购买 %amount% 个%item%，花费 %price% 金币" 

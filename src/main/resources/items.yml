@@ -1,0 +1,63 @@
+# 道具系统设置
+settings:
+  # 是否启用道具系统
+  enabled: true
+  # 是否启用商店系统
+  shop-enabled: true
+
+# 商店道具配置
+shop:
+  time_reduction:
+    name: "§6时间缩减道具"
+    material: "CLOCK"
+    price: 1000.0
+    lore:
+      - "§7使用后可以缩短繁殖时间"
+      - "§7每次缩短20%"
+      - "§7可叠加使用"
+      - ""
+      - "§e点击购买"
+  
+  instant_breed:
+    name: "§6立即完成道具"
+    material: "NETHER_STAR"
+    price: 5000.0
+    lore:
+      - "§7使用后立即完成繁殖"
+      - "§7不可叠加使用"
+      - ""
+      - "§e点击购买"
+  
+  iv_inheritance:
+    name: "§6个体继承道具"
+    material: "DIAMOND"
+    price: 2000.0
+    lore:
+      - "§7使用后增加继承父母个体值的数量"
+      - "§7每次增加1个"
+      - "§7可叠加使用"
+      - ""
+      - "§e点击购买"
+  
+  shiny_boost:
+    name: "§6闪光概率提升道具"
+    material: "GOLD_INGOT"
+    price: 10000.0
+    lore:
+      - "§7使用后提高蛋的闪光概率"
+      - "§7提高50%的基础概率"
+      - "§7不可叠加使用"
+      - ""
+      - "§e点击购买"
+  
+  random_boost:
+    name: "§6个体随机提升道具"
+    material: "EMERALD"
+    price: 3000.0
+    lore:
+      - "§7使用后随机提升蛋的个体值"
+      - "§7低个体值时随机提升1-3点"
+      - "§7高个体值时每次提升1点"
+      - "§7不可叠加使用"
+      - ""
+      - "§e点击购买" 

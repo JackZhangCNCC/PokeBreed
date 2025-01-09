@@ -1,0 +1,27 @@
+name: PokeBreed
+version: 1.0.0
+main: io.github.johnson.pokebreed.Main
+api-version: 1.16
+depend: [Vault]
+authors: [Johnson]
+description: A breeding system plugin for Pixelmon
+
+commands:
+  breed:
+    description: Open the breeding menu
+    usage: |-
+      §6========= §b宝可梦繁殖系统 §6=========
+      §e/breed §7- 打开繁殖界面
+      §e/breed help §7- 显示帮助信息
+      §e/breed reload §7- 重载插件配置（需要管理员权限）
+    permission: pokebreed.use
+
+permissions:
+  pokebreed.use:
+    description: 允许使用繁殖系统
+    default: true
+  pokebreed.admin:
+    description: 允许使用管理员命令
+    default: op
+    children:
+      pokebreed.use: true 
