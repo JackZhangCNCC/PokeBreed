@@ -4,3 +4,4 @@
 
 # 忽略 pixelmonApi.txt 文件
 /pixelmonApi.txt
+/.gitignore
